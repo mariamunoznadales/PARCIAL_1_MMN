@@ -1,4 +1,5 @@
-# PARCIAL_1_MMN
+# PARCIAL 1 MARÍA MUÑOZ NADALES
+LINK: [(https://github.com/mariamunoznadales/PARCIAL_1_MMN.git)]
 # 1) Explica que es un “Pull Request” en Github
 Un pull request se realiza al clonar el repositorio de otra persona, realizar cambios en él y querer fusionar tus cambios dentro de su repositorio remoto. Primero hay que hacer un push de tus cambios desde el local hasta el repositorio clonado, después, desde Github, darle al botón CREATE PULL REQUEST para que le llegue a la persona que creó el repositorio original.
 # 2) ¿Qué es un conflicto de fusión (merge conflict) en Git? Explica como resolverías este conflicto.
