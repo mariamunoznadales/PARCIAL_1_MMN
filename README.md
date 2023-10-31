@@ -14,8 +14,16 @@ Entrando en el repositorio y darle al botón de fork. Después, desde la consola
 a) Usando el comando cd. --> cd Nombre_del_alumno  cd Universidad  cd UAX y otra vez cd al directorio que contiene "archivo.txt". RUTA ABSOLUTA (desde el directorio raiz)
 b) cd UAX y cd al directorio que contiene "archivo.txt". RUTA RELATIVA (desde un lugar de referencia específico)
 # 7)
-1) git clone  2) git branch  3) git checkout  4) git add  5) git commit  6) git push  7) git pull
-8) git merge  9) git reset -hard  10) git log
+1)git clone  
+2)git branch  
+3)git checkout  
+4)git add  
+5)git commit  
+6)git push  
+7)git pull
+8)git merge  
+9)git reset -hard 
+10)git log
 # 8) 
 Primero me movería a la rama 'matemáticas' usando el comando git checkout matemáticas. Después, integraría el contendido de 'develop' en matemáticas, para tener todos los cambios en la rama, usando git merge develop. Surgirán conflictos, podemos verlos haciendo git status. Para resolverlos, abrimos los archivos uno por uno. En cada uno, se hace git add . para añadir los cambios al staging y se realiza un commit con un mensaje significativo (git commit -m "Update archivo.txt"). Ahora podemos hacer git merge --continue y al resolverlos ya se habrán mergeado las ramas. Entramos en la rama develop con git checkout develop y ahora sí integramos la rama matemáticas en develop con git merge matemáticas. Ahora, se repite el proceso con la rama diseño-UX. Nos movemos a la rama 'diseño-UX' usando el comando git checkout diseño-UX. Después, integraría el contendido de 'develop' en 'diseño-UX', para tener todos los cambios en la rama, usando git merge develop. Surgirán conflictos, podemos verlos haciendo git status. Para resolverlos, abrimos los archivos uno por uno. En cada uno, se hace git add . para añadir los cambios al staging y se realiza un commit con un mensaje significativo (git commit -m "Update archivo.txt"). Ahora podemos hacer git merge --continue y al resolverlos ya se habrán mergeado las ramas. Entramos en la rama develop con git checkout develop y ahora sí integramos la rama diseño-UX en develop con git merge diseño-UX. Ahora todos los cambios están en develop.
 
